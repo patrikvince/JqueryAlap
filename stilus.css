@@ -1,0 +1,20 @@
+@charset "utf-8";
+main{
+    max-width: 800px;
+}
+
+#jatekter{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#jatekter div img{
+    width: 100%;
+}
+
+.kartya{
+    padding: 10px;
+    border: 5px;
+    border-radius: 10px;
+}
